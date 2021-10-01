@@ -19,16 +19,16 @@ skin: "/assets/css/skins/dark.css"
 locale: ko-KR
 title: "일단 쓰고 보는 개발 일지"
 description: "일단 시작해봅니다"
-baseurl: "/"
-url: "https://comforest.github.io/
-logo: # path of site logo, e.g. "/images/logo.png"
+#baseurl: # the subpath of your site, e.g. "/blog"
+url: "https://comforest.github.io"
+#logo: # path of site logo, e.g. "/images/logo.png"
 date_format: "%Y-%m-%d"
 read_time: # reading time estimates, e.g. true
 words_per_minute: # 200
 mathjax:
   enable: false
-  combo:  # "tex-svg" (default), "tex-mml-chtml", etc.: docs.mathjax.org/en/latest/web/components/combined.html
-  tags:  "none" # "none", "ams" (default), "all"
+#  combo:  # "tex-svg" (default), "tex-mml-chtml", etc.: docs.mathjax.org/en/latest/web/components/combined.html
+#  tags:  "none" # "none", "ams" (default), "all"
 google_fonts:
   - name: "Source Sans Pro"
     weights: "400,400,700,700"
@@ -90,16 +90,16 @@ defaults:
 # Site Author
 author:
   name: comforest
-  picture:
-  email:
-  twitter:
-  links:
-    - title:
-      url:
-      icon:
+#  picture:
+#  email:
+#  twitter:
+#  links:
+#    - title:
+#      url:
+#      icon:
 
 # Footer Links
-footer_links:
-  - title: Feed
-    url: atom.xml
-    icon: fas fa-rss-square
+#footer_links:
+#  - title: Feed
+#    url: atom.xml
+#    icon: fas fa-rss-square
