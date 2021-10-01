@@ -191,3 +191,7 @@ tr: &DEFAULT_TR
   powered_by: "Powered by"
 tr-TR:
   <<: *DEFAULT_TR
+
+
+ko-KR:
+  <<: *DEFAULT_EN
